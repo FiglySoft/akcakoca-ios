@@ -1,0 +1,674 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D07AA1561C3DCB1500E5B57F /* TransportationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07AA1551C3DCB1500E5B57F /* TransportationTableViewCell.swift */; };
+		D07AA1581C3DD1FA00E5B57F /* HospitalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07AA1571C3DD1FA00E5B57F /* HospitalTableViewCell.swift */; };
+		D07AA15A1C3DD20500E5B57F /* PharmacyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07AA1591C3DD20500E5B57F /* PharmacyTableViewCell.swift */; };
+		D07AA15C1C3DD2F700E5B57F /* HospitalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07AA15B1C3DD2F700E5B57F /* HospitalTableViewController.swift */; };
+		D07AA15E1C3DD30300E5B57F /* PharmacyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07AA15D1C3DD30300E5B57F /* PharmacyTableViewController.swift */; };
+		D07D36671C341DD100B9EDFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07D36661C341DD100B9EDFA /* AppDelegate.swift */; };
+		D07D36691C341DD100B9EDFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07D36681C341DD100B9EDFA /* ViewController.swift */; };
+		D07D366C1C341DD100B9EDFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D07D366A1C341DD100B9EDFA /* Main.storyboard */; };
+		D07D366E1C341DD100B9EDFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D07D366D1C341DD100B9EDFA /* Assets.xcassets */; };
+		D07D36711C341DD100B9EDFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D07D366F1C341DD100B9EDFA /* LaunchScreen.storyboard */; };
+		D07D367C1C341DD100B9EDFA /* GuideSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07D367B1C341DD100B9EDFA /* GuideSampleTests.swift */; };
+		D07D36871C341DD100B9EDFA /* GuideSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07D36861C341DD100B9EDFA /* GuideSampleUITests.swift */; };
+		D07D36951C34208B00B9EDFA /* GuideMainMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07D36941C34208B00B9EDFA /* GuideMainMenuTableViewController.swift */; };
+		D07D36971C34252800B9EDFA /* MainMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07D36961C34252800B9EDFA /* MainMenuTableViewCell.swift */; };
+		D0804BA01C3DA4520040F1EB /* DetailPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0804B9F1C3DA4520040F1EB /* DetailPageViewController.swift */; };
+		D08F63521C34428200A02383 /* HistoricalPlacesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08F63511C34428200A02383 /* HistoricalPlacesTableViewCell.swift */; };
+		D08F63541C3444A600A02383 /* HistoricalPlacesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08F63531C3444A600A02383 /* HistoricalPlacesTableViewController.swift */; };
+		D08F63561C34494200A02383 /* MustSeeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08F63551C34494200A02383 /* MustSeeTableViewCell.swift */; };
+		D08F63581C344A5A00A02383 /* MustSeeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08F63571C344A5A00A02383 /* MustSeeTableViewController.swift */; };
+		D08F635A1C3474EC00A02383 /* CityMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08F63591C3474EC00A02383 /* CityMenuTableViewController.swift */; };
+		D08F635C1C3478FC00A02383 /* CityMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08F635B1C3478FC00A02383 /* CityMenuTableViewCell.swift */; };
+		D08F635F1C347FCA00A02383 /* HealthTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08F635E1C347FCA00A02383 /* HealthTableViewController.swift */; };
+		D08F63611C34800900A02383 /* TransportationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08F63601C34800900A02383 /* TransportationTableViewController.swift */; };
+		D08F63631C34801900A02383 /* EmergencyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08F63621C34801900A02383 /* EmergencyTableViewController.swift */; };
+		D08F636B1C34867C00A02383 /* HealthTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08F636A1C34867C00A02383 /* HealthTableViewCell.swift */; };
+		D08F636D1C36A93B00A02383 /* EmergencyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08F636C1C36A93B00A02383 /* EmergencyTableViewCell.swift */; };
+		D08F636F1C36E51800A02383 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08F636E1C36E51800A02383 /* MapViewController.swift */; };
+		D08F63711C3926FF00A02383 /* HotelsMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08F63701C3926FF00A02383 /* HotelsMenuTableViewCell.swift */; };
+		D08F63731C39291900A02383 /* HotelsMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08F63721C39291900A02383 /* HotelsMenuTableViewController.swift */; };
+		D08F63751C394CAF00A02383 /* HotelsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08F63741C394CAF00A02383 /* HotelsTableViewCell.swift */; };
+		D08F63771C394D8F00A02383 /* HotelsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08F63761C394D8F00A02383 /* HotelsTableViewController.swift */; };
+		D0933D2D1C3C61880049F44B /* HotelDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0933D2C1C3C61880049F44B /* HotelDetailViewController.swift */; };
+		D0A112261C42A4210098E9CD /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A112251C42A4210098E9CD /* SplashViewController.swift */; };
+		D0A112281C43BC140098E9CD /* ResortsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A112271C43BC140098E9CD /* ResortsTableViewCell.swift */; };
+		D0A1122A1C43BCAA0098E9CD /* ResortsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A112291C43BCAA0098E9CD /* ResortsTableViewController.swift */; };
+		D0A974BA1C3B0F2F008DEFCA /* HostelsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A974B91C3B0F2F008DEFCA /* HostelsTableViewCell.swift */; };
+		D0A974BC1C3B0FAB008DEFCA /* HostelsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A974BB1C3B0FAB008DEFCA /* HostelsTableViewController.swift */; };
+		D0A974BE1C3B1633008DEFCA /* RestaurantsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A974BD1C3B1633008DEFCA /* RestaurantsTableViewCell.swift */; };
+		D0A974C01C3B16AE008DEFCA /* RestaurantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A974BF1C3B16AE008DEFCA /* RestaurantTableViewController.swift */; };
+		D0A974C21C3B1ECE008DEFCA /* CafeBarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A974C11C3B1ECE008DEFCA /* CafeBarTableViewCell.swift */; };
+		D0A974C41C3B1F38008DEFCA /* CafeBarTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A974C31C3B1F38008DEFCA /* CafeBarTableViewController.swift */; };
+		D0A974C61C3B2313008DEFCA /* BeachTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A974C51C3B2313008DEFCA /* BeachTableViewCell.swift */; };
+		D0A974C81C3B2454008DEFCA /* BeachTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A974C71C3B2454008DEFCA /* BeachTableViewController.swift */; };
+		D0B45E751C3F288C00453054 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B45E741C3F288C00453054 /* WebViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D07D36781C341DD100B9EDFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D07D365B1C341DD100B9EDFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D07D36621C341DD100B9EDFA;
+			remoteInfo = GuideSample;
+		};
+		D07D36831C341DD100B9EDFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D07D365B1C341DD100B9EDFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D07D36621C341DD100B9EDFA;
+			remoteInfo = GuideSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D07AA1551C3DCB1500E5B57F /* TransportationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransportationTableViewCell.swift; sourceTree = "<group>"; };
+		D07AA1571C3DD1FA00E5B57F /* HospitalTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HospitalTableViewCell.swift; sourceTree = "<group>"; };
+		D07AA1591C3DD20500E5B57F /* PharmacyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PharmacyTableViewCell.swift; sourceTree = "<group>"; };
+		D07AA15B1C3DD2F700E5B57F /* HospitalTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HospitalTableViewController.swift; sourceTree = "<group>"; };
+		D07AA15D1C3DD30300E5B57F /* PharmacyTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PharmacyTableViewController.swift; sourceTree = "<group>"; };
+		D07D36631C341DD100B9EDFA /* Akçakoca Rehberi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Akçakoca Rehberi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D07D36661C341DD100B9EDFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D07D36681C341DD100B9EDFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D07D366B1C341DD100B9EDFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D07D366D1C341DD100B9EDFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D07D36701C341DD100B9EDFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D07D36721C341DD100B9EDFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D07D36771C341DD100B9EDFA /* Akçakoca Rehberi.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Akçakoca Rehberi.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D07D367B1C341DD100B9EDFA /* GuideSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideSampleTests.swift; sourceTree = "<group>"; };
+		D07D367D1C341DD100B9EDFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D07D36821C341DD100B9EDFA /* Akçakoca Rehberi.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Akçakoca Rehberi.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D07D36861C341DD100B9EDFA /* GuideSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideSampleUITests.swift; sourceTree = "<group>"; };
+		D07D36881C341DD100B9EDFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D07D36941C34208B00B9EDFA /* GuideMainMenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuideMainMenuTableViewController.swift; sourceTree = "<group>"; };
+		D07D36961C34252800B9EDFA /* MainMenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuTableViewCell.swift; sourceTree = "<group>"; };
+		D0804B9F1C3DA4520040F1EB /* DetailPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailPageViewController.swift; sourceTree = "<group>"; };
+		D08F63511C34428200A02383 /* HistoricalPlacesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoricalPlacesTableViewCell.swift; sourceTree = "<group>"; };
+		D08F63531C3444A600A02383 /* HistoricalPlacesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoricalPlacesTableViewController.swift; sourceTree = "<group>"; };
+		D08F63551C34494200A02383 /* MustSeeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MustSeeTableViewCell.swift; sourceTree = "<group>"; };
+		D08F63571C344A5A00A02383 /* MustSeeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MustSeeTableViewController.swift; sourceTree = "<group>"; };
+		D08F63591C3474EC00A02383 /* CityMenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityMenuTableViewController.swift; sourceTree = "<group>"; };
+		D08F635B1C3478FC00A02383 /* CityMenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityMenuTableViewCell.swift; sourceTree = "<group>"; };
+		D08F635E1C347FCA00A02383 /* HealthTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthTableViewController.swift; sourceTree = "<group>"; };
+		D08F63601C34800900A02383 /* TransportationTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransportationTableViewController.swift; sourceTree = "<group>"; };
+		D08F63621C34801900A02383 /* EmergencyTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmergencyTableViewController.swift; sourceTree = "<group>"; };
+		D08F636A1C34867C00A02383 /* HealthTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthTableViewCell.swift; sourceTree = "<group>"; };
+		D08F636C1C36A93B00A02383 /* EmergencyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmergencyTableViewCell.swift; sourceTree = "<group>"; };
+		D08F636E1C36E51800A02383 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		D08F63701C3926FF00A02383 /* HotelsMenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotelsMenuTableViewCell.swift; sourceTree = "<group>"; };
+		D08F63721C39291900A02383 /* HotelsMenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotelsMenuTableViewController.swift; sourceTree = "<group>"; };
+		D08F63741C394CAF00A02383 /* HotelsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotelsTableViewCell.swift; sourceTree = "<group>"; };
+		D08F63761C394D8F00A02383 /* HotelsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotelsTableViewController.swift; sourceTree = "<group>"; };
+		D0933D2C1C3C61880049F44B /* HotelDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotelDetailViewController.swift; sourceTree = "<group>"; };
+		D0A112251C42A4210098E9CD /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		D0A112271C43BC140098E9CD /* ResortsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResortsTableViewCell.swift; sourceTree = "<group>"; };
+		D0A112291C43BCAA0098E9CD /* ResortsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResortsTableViewController.swift; sourceTree = "<group>"; };
+		D0A974B91C3B0F2F008DEFCA /* HostelsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HostelsTableViewCell.swift; sourceTree = "<group>"; };
+		D0A974BB1C3B0FAB008DEFCA /* HostelsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HostelsTableViewController.swift; sourceTree = "<group>"; };
+		D0A974BD1C3B1633008DEFCA /* RestaurantsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantsTableViewCell.swift; sourceTree = "<group>"; };
+		D0A974BF1C3B16AE008DEFCA /* RestaurantTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewController.swift; sourceTree = "<group>"; };
+		D0A974C11C3B1ECE008DEFCA /* CafeBarTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CafeBarTableViewCell.swift; sourceTree = "<group>"; };
+		D0A974C31C3B1F38008DEFCA /* CafeBarTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CafeBarTableViewController.swift; sourceTree = "<group>"; };
+		D0A974C51C3B2313008DEFCA /* BeachTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeachTableViewCell.swift; sourceTree = "<group>"; };
+		D0A974C71C3B2454008DEFCA /* BeachTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeachTableViewController.swift; sourceTree = "<group>"; };
+		D0B45E741C3F288C00453054 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D07D36601C341DD100B9EDFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D07D36741C341DD100B9EDFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D07D367F1C341DD100B9EDFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D06EA2A31C3C1D1A00A59F7C /* deneme */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = deneme;
+			sourceTree = "<group>";
+		};
+		D07D365A1C341DD100B9EDFA = {
+			isa = PBXGroup;
+			children = (
+				D07D36651C341DD100B9EDFA /* Akçakoca Rehberi */,
+				D07D367A1C341DD100B9EDFA /* GuideSampleTests */,
+				D07D36851C341DD100B9EDFA /* GuideSampleUITests */,
+				D07D36641C341DD100B9EDFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D07D36641C341DD100B9EDFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D07D36631C341DD100B9EDFA /* Akçakoca Rehberi.app */,
+				D07D36771C341DD100B9EDFA /* Akçakoca Rehberi.xctest */,
+				D07D36821C341DD100B9EDFA /* Akçakoca Rehberi.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D07D36651C341DD100B9EDFA /* Akçakoca Rehberi */ = {
+			isa = PBXGroup;
+			children = (
+				D07D36661C341DD100B9EDFA /* AppDelegate.swift */,
+				D07D366D1C341DD100B9EDFA /* Assets.xcassets */,
+				D0A974C51C3B2313008DEFCA /* BeachTableViewCell.swift */,
+				D0A974C71C3B2454008DEFCA /* BeachTableViewController.swift */,
+				D0A974C11C3B1ECE008DEFCA /* CafeBarTableViewCell.swift */,
+				D0A974C31C3B1F38008DEFCA /* CafeBarTableViewController.swift */,
+				D08F635B1C3478FC00A02383 /* CityMenuTableViewCell.swift */,
+				D08F63591C3474EC00A02383 /* CityMenuTableViewController.swift */,
+				D06EA2A31C3C1D1A00A59F7C /* deneme */,
+				D0804B9F1C3DA4520040F1EB /* DetailPageViewController.swift */,
+				D08F636C1C36A93B00A02383 /* EmergencyTableViewCell.swift */,
+				D08F63621C34801900A02383 /* EmergencyTableViewController.swift */,
+				D07D36941C34208B00B9EDFA /* GuideMainMenuTableViewController.swift */,
+				D08F636A1C34867C00A02383 /* HealthTableViewCell.swift */,
+				D08F635E1C347FCA00A02383 /* HealthTableViewController.swift */,
+				D08F63511C34428200A02383 /* HistoricalPlacesTableViewCell.swift */,
+				D08F63531C3444A600A02383 /* HistoricalPlacesTableViewController.swift */,
+				D07AA1571C3DD1FA00E5B57F /* HospitalTableViewCell.swift */,
+				D07AA15B1C3DD2F700E5B57F /* HospitalTableViewController.swift */,
+				D0A974B91C3B0F2F008DEFCA /* HostelsTableViewCell.swift */,
+				D0A974BB1C3B0FAB008DEFCA /* HostelsTableViewController.swift */,
+				D0933D2C1C3C61880049F44B /* HotelDetailViewController.swift */,
+				D08F63701C3926FF00A02383 /* HotelsMenuTableViewCell.swift */,
+				D08F63721C39291900A02383 /* HotelsMenuTableViewController.swift */,
+				D08F63741C394CAF00A02383 /* HotelsTableViewCell.swift */,
+				D08F63761C394D8F00A02383 /* HotelsTableViewController.swift */,
+				D07D36721C341DD100B9EDFA /* Info.plist */,
+				D07D366F1C341DD100B9EDFA /* LaunchScreen.storyboard */,
+				D07D366A1C341DD100B9EDFA /* Main.storyboard */,
+				D0A112291C43BCAA0098E9CD /* ResortsTableViewController.swift */,
+				D0A112271C43BC140098E9CD /* ResortsTableViewCell.swift */,
+				D0A112251C42A4210098E9CD /* SplashViewController.swift */,
+				D07D36961C34252800B9EDFA /* MainMenuTableViewCell.swift */,
+				D08F636E1C36E51800A02383 /* MapViewController.swift */,
+				D08F63551C34494200A02383 /* MustSeeTableViewCell.swift */,
+				D08F63571C344A5A00A02383 /* MustSeeTableViewController.swift */,
+				D07AA1591C3DD20500E5B57F /* PharmacyTableViewCell.swift */,
+				D07AA15D1C3DD30300E5B57F /* PharmacyTableViewController.swift */,
+				D0A974BD1C3B1633008DEFCA /* RestaurantsTableViewCell.swift */,
+				D0A974BF1C3B16AE008DEFCA /* RestaurantTableViewController.swift */,
+				D07AA1551C3DCB1500E5B57F /* TransportationTableViewCell.swift */,
+				D08F63601C34800900A02383 /* TransportationTableViewController.swift */,
+				D07D36681C341DD100B9EDFA /* ViewController.swift */,
+				D0B45E741C3F288C00453054 /* WebViewController.swift */,
+			);
+			name = "Akçakoca Rehberi";
+			path = GuideSample;
+			sourceTree = "<group>";
+		};
+		D07D367A1C341DD100B9EDFA /* GuideSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				D07D367B1C341DD100B9EDFA /* GuideSampleTests.swift */,
+				D07D367D1C341DD100B9EDFA /* Info.plist */,
+			);
+			path = GuideSampleTests;
+			sourceTree = "<group>";
+		};
+		D07D36851C341DD100B9EDFA /* GuideSampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D07D36861C341DD100B9EDFA /* GuideSampleUITests.swift */,
+				D07D36881C341DD100B9EDFA /* Info.plist */,
+			);
+			path = GuideSampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D07D36621C341DD100B9EDFA /* Akçakoca Rehberi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D07D368B1C341DD100B9EDFA /* Build configuration list for PBXNativeTarget "Akçakoca Rehberi" */;
+			buildPhases = (
+				D07D365F1C341DD100B9EDFA /* Sources */,
+				D07D36601C341DD100B9EDFA /* Frameworks */,
+				D07D36611C341DD100B9EDFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Akçakoca Rehberi";
+			productName = GuideSample;
+			productReference = D07D36631C341DD100B9EDFA /* Akçakoca Rehberi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D07D36761C341DD100B9EDFA /* Akçakoca RehberiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D07D368E1C341DD100B9EDFA /* Build configuration list for PBXNativeTarget "Akçakoca RehberiTests" */;
+			buildPhases = (
+				D07D36731C341DD100B9EDFA /* Sources */,
+				D07D36741C341DD100B9EDFA /* Frameworks */,
+				D07D36751C341DD100B9EDFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D07D36791C341DD100B9EDFA /* PBXTargetDependency */,
+			);
+			name = "Akçakoca RehberiTests";
+			productName = GuideSampleTests;
+			productReference = D07D36771C341DD100B9EDFA /* Akçakoca Rehberi.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D07D36811C341DD100B9EDFA /* Akçakoca RehberiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D07D36911C341DD100B9EDFA /* Build configuration list for PBXNativeTarget "Akçakoca RehberiUITests" */;
+			buildPhases = (
+				D07D367E1C341DD100B9EDFA /* Sources */,
+				D07D367F1C341DD100B9EDFA /* Frameworks */,
+				D07D36801C341DD100B9EDFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D07D36841C341DD100B9EDFA /* PBXTargetDependency */,
+			);
+			name = "Akçakoca RehberiUITests";
+			productName = GuideSampleUITests;
+			productReference = D07D36821C341DD100B9EDFA /* Akçakoca Rehberi.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D07D365B1C341DD100B9EDFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Servet Can Asutay";
+				TargetAttributes = {
+					D07D36621C341DD100B9EDFA = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 9B4UY4ENN8;
+					};
+					D07D36761C341DD100B9EDFA = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D07D36621C341DD100B9EDFA;
+					};
+					D07D36811C341DD100B9EDFA = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D07D36621C341DD100B9EDFA;
+					};
+				};
+			};
+			buildConfigurationList = D07D365E1C341DD100B9EDFA /* Build configuration list for PBXProject "Akçakoca Rehberi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D07D365A1C341DD100B9EDFA;
+			productRefGroup = D07D36641C341DD100B9EDFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D07D36621C341DD100B9EDFA /* Akçakoca Rehberi */,
+				D07D36761C341DD100B9EDFA /* Akçakoca RehberiTests */,
+				D07D36811C341DD100B9EDFA /* Akçakoca RehberiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D07D36611C341DD100B9EDFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D07D36711C341DD100B9EDFA /* LaunchScreen.storyboard in Resources */,
+				D07D366E1C341DD100B9EDFA /* Assets.xcassets in Resources */,
+				D07D366C1C341DD100B9EDFA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D07D36751C341DD100B9EDFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D07D36801C341DD100B9EDFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D07D365F1C341DD100B9EDFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0804BA01C3DA4520040F1EB /* DetailPageViewController.swift in Sources */,
+				D08F63581C344A5A00A02383 /* MustSeeTableViewController.swift in Sources */,
+				D0A112281C43BC140098E9CD /* ResortsTableViewCell.swift in Sources */,
+				D08F63731C39291900A02383 /* HotelsMenuTableViewController.swift in Sources */,
+				D0A974C61C3B2313008DEFCA /* BeachTableViewCell.swift in Sources */,
+				D0A112261C42A4210098E9CD /* SplashViewController.swift in Sources */,
+				D0A974C81C3B2454008DEFCA /* BeachTableViewController.swift in Sources */,
+				D0933D2D1C3C61880049F44B /* HotelDetailViewController.swift in Sources */,
+				D08F63521C34428200A02383 /* HistoricalPlacesTableViewCell.swift in Sources */,
+				D08F63751C394CAF00A02383 /* HotelsTableViewCell.swift in Sources */,
+				D07AA1561C3DCB1500E5B57F /* TransportationTableViewCell.swift in Sources */,
+				D08F63771C394D8F00A02383 /* HotelsTableViewController.swift in Sources */,
+				D07AA15A1C3DD20500E5B57F /* PharmacyTableViewCell.swift in Sources */,
+				D07D36691C341DD100B9EDFA /* ViewController.swift in Sources */,
+				D0A974BE1C3B1633008DEFCA /* RestaurantsTableViewCell.swift in Sources */,
+				D08F63561C34494200A02383 /* MustSeeTableViewCell.swift in Sources */,
+				D07D36671C341DD100B9EDFA /* AppDelegate.swift in Sources */,
+				D07D36951C34208B00B9EDFA /* GuideMainMenuTableViewController.swift in Sources */,
+				D08F636D1C36A93B00A02383 /* EmergencyTableViewCell.swift in Sources */,
+				D0A974C21C3B1ECE008DEFCA /* CafeBarTableViewCell.swift in Sources */,
+				D08F63711C3926FF00A02383 /* HotelsMenuTableViewCell.swift in Sources */,
+				D0B45E751C3F288C00453054 /* WebViewController.swift in Sources */,
+				D08F635A1C3474EC00A02383 /* CityMenuTableViewController.swift in Sources */,
+				D08F635C1C3478FC00A02383 /* CityMenuTableViewCell.swift in Sources */,
+				D07AA15C1C3DD2F700E5B57F /* HospitalTableViewController.swift in Sources */,
+				D0A974C01C3B16AE008DEFCA /* RestaurantTableViewController.swift in Sources */,
+				D08F635F1C347FCA00A02383 /* HealthTableViewController.swift in Sources */,
+				D0A974BC1C3B0FAB008DEFCA /* HostelsTableViewController.swift in Sources */,
+				D0A974C41C3B1F38008DEFCA /* CafeBarTableViewController.swift in Sources */,
+				D08F636B1C34867C00A02383 /* HealthTableViewCell.swift in Sources */,
+				D08F63611C34800900A02383 /* TransportationTableViewController.swift in Sources */,
+				D07D36971C34252800B9EDFA /* MainMenuTableViewCell.swift in Sources */,
+				D08F63631C34801900A02383 /* EmergencyTableViewController.swift in Sources */,
+				D08F63541C3444A600A02383 /* HistoricalPlacesTableViewController.swift in Sources */,
+				D07AA1581C3DD1FA00E5B57F /* HospitalTableViewCell.swift in Sources */,
+				D0A974BA1C3B0F2F008DEFCA /* HostelsTableViewCell.swift in Sources */,
+				D07AA15E1C3DD30300E5B57F /* PharmacyTableViewController.swift in Sources */,
+				D08F636F1C36E51800A02383 /* MapViewController.swift in Sources */,
+				D0A1122A1C43BCAA0098E9CD /* ResortsTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D07D36731C341DD100B9EDFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D07D367C1C341DD100B9EDFA /* GuideSampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D07D367E1C341DD100B9EDFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D07D36871C341DD100B9EDFA /* GuideSampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D07D36791C341DD100B9EDFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D07D36621C341DD100B9EDFA /* Akçakoca Rehberi */;
+			targetProxy = D07D36781C341DD100B9EDFA /* PBXContainerItemProxy */;
+		};
+		D07D36841C341DD100B9EDFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D07D36621C341DD100B9EDFA /* Akçakoca Rehberi */;
+			targetProxy = D07D36831C341DD100B9EDFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D07D366A1C341DD100B9EDFA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D07D366B1C341DD100B9EDFA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D07D366F1C341DD100B9EDFA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D07D36701C341DD100B9EDFA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D07D36891C341DD100B9EDFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D07D368A1C341DD100B9EDFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D07D368C1C341DD100B9EDFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = GuideSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.figlysoft.Akcakoca;
+				PRODUCT_NAME = "Akçakoca Rehberi";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		D07D368D1C341DD100B9EDFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = GuideSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.figlysoft.Akcakoca;
+				PRODUCT_NAME = "Akçakoca Rehberi";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		D07D368F1C341DD100B9EDFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GuideSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.figlysoft.GuideSampleTests;
+				PRODUCT_NAME = "Akçakoca Rehberi";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Akçakoca Rehberi.app/Akçakoca Rehberi";
+			};
+			name = Debug;
+		};
+		D07D36901C341DD100B9EDFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GuideSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.figlysoft.GuideSampleTests;
+				PRODUCT_NAME = "Akçakoca Rehberi";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Akçakoca Rehberi.app/Akçakoca Rehberi";
+			};
+			name = Release;
+		};
+		D07D36921C341DD100B9EDFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GuideSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.figlysoft.GuideSampleUITests;
+				PRODUCT_NAME = "Akçakoca Rehberi";
+				TEST_TARGET_NAME = GuideSample;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D07D36931C341DD100B9EDFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GuideSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.figlysoft.GuideSampleUITests;
+				PRODUCT_NAME = "Akçakoca Rehberi";
+				TEST_TARGET_NAME = GuideSample;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D07D365E1C341DD100B9EDFA /* Build configuration list for PBXProject "Akçakoca Rehberi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D07D36891C341DD100B9EDFA /* Debug */,
+				D07D368A1C341DD100B9EDFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D07D368B1C341DD100B9EDFA /* Build configuration list for PBXNativeTarget "Akçakoca Rehberi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D07D368C1C341DD100B9EDFA /* Debug */,
+				D07D368D1C341DD100B9EDFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D07D368E1C341DD100B9EDFA /* Build configuration list for PBXNativeTarget "Akçakoca RehberiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D07D368F1C341DD100B9EDFA /* Debug */,
+				D07D36901C341DD100B9EDFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D07D36911C341DD100B9EDFA /* Build configuration list for PBXNativeTarget "Akçakoca RehberiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D07D36921C341DD100B9EDFA /* Debug */,
+				D07D36931C341DD100B9EDFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D07D365B1C341DD100B9EDFA /* Project object */;
+}
